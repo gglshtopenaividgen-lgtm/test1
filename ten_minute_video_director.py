@@ -387,7 +387,8 @@ def run_ten_minute_pipeline(
     print("=" * 76)
 
     # Resolve theme
-    active_theme = custom_theme or DEFAULT_THEMES.get(theme_key.lower(), DEFAULT_THEMES["cyberpunk"])
+    cleaned_key = str(theme_key).lower().strip().strip("{}'\"")
+    active_theme = custom_theme or DEFAULT_THEMES.get(cleaned_key, DEFAULT_THEMES["cyberpunk"])
     print(f"🎨 Theme: \"{active_theme}\"")
 
     # Local scratch directories
@@ -497,7 +498,7 @@ def run_ten_minute_pipeline(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Autonomous 10-Minute Cinematic Video Generator")
-    parser.add_argument("--theme", type=str, default="cyberpunk", choices=["cyberpunk", "fantasy", "lofi", "cosmic"])
+    parser.add_argument("--theme", type=str, default="cyberpunk")
     parser.add_argument("--custom-theme", type=str, default=None)
     parser.add_argument("--scenes", type=int, default=100)
     parser.add_argument("--token", type=str, default=DEFAULT_GITHUB_TOKEN)
