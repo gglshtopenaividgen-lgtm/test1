@@ -424,29 +424,48 @@ def assemble_master_video(scene_paths: List[Path], output_path: Path) -> bool:
         for p in scene_paths:
             f.write(f"file '{p.resolve().as_posix()}'\n")
 
-    cmd = [
+    # Fast stream copy attempt
+    cmd_copy = [
         "ffmpeg", "-y",
         "-f", "concat",
         "-safe", "0",
         "-i", str(concat_txt),
-        "-c:v", "libx264",
-        "-crf", "24",
-        "-preset", "medium",
-        "-pix_fmt", "yuv420p",
+        "-c", "copy",
         str(output_path)
     ]
 
     try:
         t0 = time.time()
-        subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True)
+        subprocess.run(cmd_copy, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
         size_mb = output_path.stat().st_size / (1024 * 1024)
-        print(f"🎉 MASTER 20-MINUTE VIDEO COMPILED IN {time.time() - t0:.1f}s!")
+        print(f"🎉 MASTER 20-MINUTE VIDEO COMPILED IN {time.time() - t0:.1f}s (Lossless Stream Copy)!")
         print(f"   File: {output_path}")
         print(f"   Size: {size_mb:.2f} MB")
         return True
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Master compilation failed: {e.stderr[:200]}")
-        return False
+    except Exception:
+        # Fallback to re-encoding
+        cmd_reencode = [
+            "ffmpeg", "-y",
+            "-f", "concat",
+            "-safe", "0",
+            "-i", str(concat_txt),
+            "-c:v", "libx264",
+            "-crf", "24",
+            "-preset", "fast",
+            "-pix_fmt", "yuv420p",
+            str(output_path)
+        ]
+        try:
+            t0 = time.time()
+            subprocess.run(cmd_reencode, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=True)
+            size_mb = output_path.stat().st_size / (1024 * 1024)
+            print(f"🎉 MASTER 20-MINUTE VIDEO COMPILED IN {time.time() - t0:.1f}s (Re-encoded)!")
+            print(f"   File: {output_path}")
+            print(f"   Size: {size_mb:.2f} MB")
+            return True
+        except subprocess.CalledProcessError as e:
+            print(f"❌ Master compilation failed: {e.stderr[:200]}")
+            return False
 
 
 def create_maximum_compression_archive(source_files: List[Path], zip_destination: Path) -> Path:
