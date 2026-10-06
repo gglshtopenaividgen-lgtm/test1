@@ -312,7 +312,10 @@ class FastMotionEngine:
             timestep_spacing="trailing",
             beta_schedule="linear"
         )
-        self.pipe.enable_vae_slicing()
+        if hasattr(self.pipe, "enable_vae_slicing"):
+            self.pipe.enable_vae_slicing()
+        elif hasattr(self.pipe, "vae") and hasattr(self.pipe.vae, "enable_slicing"):
+            self.pipe.vae.enable_slicing()
         self.device = device
         print("   ✅ High-Speed Motion Engine initialized.")
 
