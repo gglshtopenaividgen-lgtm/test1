@@ -56,7 +56,32 @@ except ImportError:
 
 DEFAULT_GITHUB_REPO = "gglshtopenaividgen-lgtm/test1"
 DEFAULT_GITHUB_BRANCH = "main"
-DEFAULT_GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+
+# Automatically resolve GITHUB_TOKEN from Colab Secrets, env
+DEFAULT_GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN", "")
+if not DEFAULT_GITHUB_TOKEN:
+    try:
+        from google.colab import userdata
+        DEFAULT_GITHUB_TOKEN = userdata.get("GH_TOKEN") or userdata.get("GITHUB_TOKEN")
+    except Exception:
+        pass
+
+# Automatically resolve HF_TOKEN from Colab Secrets, env
+HF_TOKEN = os.environ.get("HF_TOKEN", "")
+if not HF_TOKEN:
+    try:
+        from google.colab import userdata
+        HF_TOKEN = userdata.get("HF_TOKEN")
+    except Exception:
+        pass
+
+if HF_TOKEN:
+    os.environ["HF_TOKEN"] = HF_TOKEN
+    try:
+        import huggingface_hub
+        huggingface_hub.login(token=HF_TOKEN, add_to_git_credential=False)
+    except Exception:
+        pass
 
 DEFAULT_THEMES = {
     "cyberpunk": "Cyberpunk metropolis with holographic neon rain, futuristic transit cruisers, and glowing skyscrapers",
@@ -163,12 +188,13 @@ class ScreenplayDirector:
         from transformers import AutoModelForCausalLM, AutoTokenizer
         print("🧠 [1/2] Loading Screenplay Co-Pilot (Qwen/Qwen2.5-0.5B-Instruct)...")
         self.model_id = "Qwen/Qwen2.5-0.5B-Instruct"
-        self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
+        self.tokenizer = AutoTokenizer.from_pretrained(self.model_id, token=HF_TOKEN or None)
         dtype = torch.float16 if device == "cuda" else torch.float32
         self.model = AutoModelForCausalLM.from_pretrained(
             self.model_id,
-            torch_dtype=dtype,
-            device_map=device
+            dtype=dtype,
+            device_map=device,
+            token=HF_TOKEN or None
         )
         self.device = device
         print("   ✅ Screenplay Director initialized in ~480 MB VRAM.")
@@ -229,7 +255,7 @@ class FastMotionEngine:
         adapter_repo = "ByteDance/AnimateDiff-Lightning"
         ckpt_filename = "animatediff_lightning_2step_diffusers.safetensors"
         
-        adapter_path = hf_hub_download(repo_id=adapter_repo, filename=ckpt_filename)
+        adapter_path = hf_hub_download(repo_id=adapter_repo, filename=ckpt_filename, token=HF_TOKEN or None)
         adapter = MotionAdapter().to(device, torch.float16)
         adapter.load_state_dict(load_file(adapter_path))
 
@@ -238,7 +264,8 @@ class FastMotionEngine:
         self.pipe = AnimateDiffPipeline.from_pretrained(
             base_model,
             motion_adapter=adapter,
-            torch_dtype=torch.float16
+            dtype=torch.float16,
+            token=HF_TOKEN or None
         ).to(device)
 
         self.pipe.scheduler = EulerDiscreteScheduler.from_config(
@@ -250,6 +277,10 @@ class FastMotionEngine:
             self.pipe.enable_vae_slicing()
         elif hasattr(self.pipe, "vae") and hasattr(self.pipe.vae, "enable_slicing"):
             self.pipe.vae.enable_slicing()
+        if hasattr(self.pipe, "enable_vae_tiling"):
+            self.pipe.enable_vae_tiling()
+        elif hasattr(self.pipe, "vae") and hasattr(self.pipe.vae, "enable_tiling"):
+            self.pipe.vae.enable_tiling()
         self.device = device
         print("   ✅ Fast Motion Pipeline initialized in ~4.8 GB VRAM.")
 
