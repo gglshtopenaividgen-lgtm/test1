@@ -1,0 +1,962 @@
+{
+ "0": {
+  "prompt": "Earth from low orbit, thin glowing blue atmosphere limb, city lights on the night side, sunrise breaking over the horizon, 24mm wide, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 1000,
+  "qa": {
+   "sharp": 212.2841796875,
+   "entropy": 6.749358602364724,
+   "mean": 51.254493713378906,
+   "std": 43.49242401123047
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "1": {
+  "prompt": "orbital space station with large solar panels catching sunlight above the curve of Earth, sharp metal detail, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 8919,
+  "qa": {
+   "sharp": 722.3675537109375,
+   "entropy": 7.657816979131946,
+   "mean": 93.61235809326172,
+   "std": 66.8502426147461
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "2": {
+  "prompt": "the Moon's gray cratered surface in raking sunlight, long crater shadows, small blue Earth in the black sky, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 16838,
+  "qa": {
+   "sharp": 247.37803649902344,
+   "entropy": 7.003711262619909,
+   "mean": 69.6713638305664,
+   "std": 36.81546401977539
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "3": {
+  "prompt": "astronaut in a white spacesuit floating beside an orbital module, visor reflecting Earth, tether drifting, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 24757,
+  "qa": {
+   "sharp": 444.402099609375,
+   "entropy": 7.64972732550136,
+   "mean": 93.79585266113281,
+   "std": 64.20368194580078
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "4": {
+  "prompt": "rocket upper stage engine nozzle burning bright, exhaust plume fanning into vacuum, Earth far below, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 32676,
+  "qa": {
+   "sharp": 170.61483764648438,
+   "entropy": 7.780229712010839,
+   "mean": 124.02960205078125,
+   "std": 62.57368850708008
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "5": {
+  "prompt": "Mars desert plain at dawn, Olympus Mons volcano on the horizon, thin pink haze, rocky foreground, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 40595,
+  "qa": {
+   "sharp": 78.8388671875,
+   "entropy": 6.910797014908359,
+   "mean": 92.10725402832031,
+   "std": 39.776039123535156
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "6": {
+  "prompt": "Martian sunset with a blue-tinted sky around the small sun, rover tracks leading across rusty dunes, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 48514,
+  "qa": {
+   "sharp": 442.9648132324219,
+   "entropy": 7.490033225312997,
+   "mean": 110.01323699951172,
+   "std": 51.908443450927734
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "7": {
+  "prompt": "Jupiter's Great Red Spot, striped cream and rust cloud bands, the moon Io small in the foreground, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 56433,
+  "qa": {
+   "sharp": 96.71939086914062,
+   "entropy": 7.120219930995473,
+   "mean": 125.18838500976562,
+   "std": 54.35599136352539
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "8": {
+  "prompt": "Saturn seen from slightly above its thin ring plane, golden banded globe, ring shadow cast across the clouds, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 64352,
+  "qa": {
+   "sharp": 21.392105102539062,
+   "entropy": 6.314496549988448,
+   "mean": 111.18609619140625,
+   "std": 32.56023406982422
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "9": {
+  "prompt": "Saturn's rings sweeping across the frame, glittering ice particles, the planet filling the background, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 72271,
+  "qa": {
+   "sharp": 511.2340087890625,
+   "entropy": 7.674965022696064,
+   "mean": 89.35139465332031,
+   "std": 64.48456573486328
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "10": {
+  "prompt": "Europa's cracked icy surface with long blue-white fractures, giant Jupiter hanging over the horizon, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 80190,
+  "qa": {
+   "sharp": 389.0100402832031,
+   "entropy": 7.410612982746588,
+   "mean": 81.81169891357422,
+   "std": 52.8395881652832
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "11": {
+  "prompt": "Enceladus ice geysers erupting from the south pole, glittering plumes backlit by the distant sun, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 88109,
+  "qa": {
+   "sharp": 103.31421661376953,
+   "entropy": 7.396434006986238,
+   "mean": 99.35443878173828,
+   "std": 51.661930084228516
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "12": {
+  "prompt": "comet with a bright icy nucleus and long curved ion and dust tails, streaking through a dense star field, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 96028,
+  "qa": {
+   "sharp": 196.71278381347656,
+   "entropy": 6.927761126544415,
+   "mean": 64.41516876220703,
+   "std": 51.56041717529297
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "13": {
+  "prompt": "Titan's orange hazy atmosphere as a thin crescent, Saturn's rings arcing behind it, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 103947,
+  "qa": {
+   "sharp": 54.531959533691406,
+   "entropy": 7.02037268973818,
+   "mean": 66.57284545898438,
+   "std": 38.192344665527344
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "14": {
+  "prompt": "Neptune deep blue with white high-altitude cloud streaks, faint rings, the moon Triton a bright dot, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 111866,
+  "qa": {
+   "sharp": 181.40057373046875,
+   "entropy": 7.038320935648995,
+   "mean": 98.18451690673828,
+   "std": 43.002899169921875
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "15": {
+  "prompt": "asteroid belt, dark tumbling rocks lit from one side, a small golden sun in the far distance, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 119785,
+  "qa": {
+   "sharp": 367.2979431152344,
+   "entropy": 7.102103459254327,
+   "mean": 68.88223266601562,
+   "std": 58.75590133666992
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "16": {
+  "prompt": "Uranus tilted on its side, pale cyan atmosphere, thin dark vertical rings, calm and sharp, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 127704,
+  "qa": {
+   "sharp": 160.34320068359375,
+   "entropy": 7.024792565745845,
+   "mean": 65.26464080810547,
+   "std": 55.24760818481445
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "17": {
+  "prompt": "total solar eclipse, black disc of the Moon with white coronal streamers and red prominences, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 135623,
+  "qa": {
+   "sharp": 60.64455032348633,
+   "entropy": 6.3487868615036405,
+   "mean": 50.35992431640625,
+   "std": 45.061500549316406
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "18": {
+  "prompt": "giant solar prominence arcing off the Sun's limb, granulated glowing plasma surface, intense orange and white, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 143542,
+  "qa": {
+   "sharp": 105.00251007080078,
+   "entropy": 7.302311392084297,
+   "mean": 74.17430877685547,
+   "std": 59.360694885253906
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "19": {
+  "prompt": "the solar system seen from far away, a tiny pale blue dot in black space with a single faint beam of sunlight, deep blue and warm amber sunlight, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 151461,
+  "qa": {
+   "sharp": 141.37440490722656,
+   "entropy": 6.65377976358505,
+   "mean": 46.98788070678711,
+   "std": 46.08858108520508
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "20": {
+  "prompt": "the Pillars of Creation, towering columns of gas and dust glowing amber and teal, newborn stars at the tips, Hubble detail, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 160380,
+  "qa": {
+   "sharp": 552.9039306640625,
+   "entropy": 7.151482908574015,
+   "mean": 60.483970642089844,
+   "std": 46.44214630126953
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "21": {
+  "prompt": "wide view of the Pillars of Creation with bright young blue stars, gas columns taller than light years, sharp filaments, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 168299,
+  "qa": {
+   "sharp": 334.4488220214844,
+   "entropy": 7.161015755126604,
+   "mean": 67.01708221435547,
+   "std": 40.21543884277344
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "22": {
+  "prompt": "the Orion Nebula core with the bright Trapezium star cluster, glowing magenta and cyan gas filaments, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 176218,
+  "qa": {
+   "sharp": 415.98577880859375,
+   "entropy": 7.003991447810975,
+   "mean": 52.56696701049805,
+   "std": 46.111289978027344
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "23": {
+  "prompt": "Carina Nebula cliffs of gas with orange and blue ridges lit by young blue stars, enormous scale, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 184137,
+  "qa": {
+   "sharp": 228.9866943359375,
+   "entropy": 6.946463462760017,
+   "mean": 57.45149612426758,
+   "std": 40.668540954589844
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "24": {
+  "prompt": "glowing red hydrogen emission nebula with dark dust lanes in silhouette, thousands of pinpoint stars, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 192056,
+  "qa": {
+   "sharp": 220.40896606445312,
+   "entropy": 6.320085491841852,
+   "mean": 36.71589279174805,
+   "std": 32.1771125793457
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "25": {
+  "prompt": "the Horsehead Nebula, a dark silhouette against a glowing red hydrogen wall, sharp star points, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 199975,
+  "qa": {
+   "sharp": 132.60806274414062,
+   "entropy": 6.5446907921125534,
+   "mean": 43.34028244018555,
+   "std": 31.261585235595703
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "26": {
+  "prompt": "protoplanetary disk around a newborn star, dusty rings with clear gaps, bright star at the center, photographic realism, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 207894,
+  "qa": {
+   "sharp": 62.080657958984375,
+   "entropy": 7.3873330471782515,
+   "mean": 77.97562408447266,
+   "std": 54.423221588134766
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "27": {
+  "prompt": "Crab Nebula supernova remnant with orange and blue gas filaments, a pulsar glowing at its center, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 215813,
+  "qa": {
+   "sharp": 548.5681762695312,
+   "entropy": 6.859405049570957,
+   "mean": 55.7144775390625,
+   "std": 39.024269104003906
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "28": {
+  "prompt": "the Ring Nebula, a glowing ring of green and red gas around a small white dwarf star, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 223732,
+  "qa": {
+   "sharp": 85.04378509521484,
+   "entropy": 6.89215458517019,
+   "mean": 53.117435455322266,
+   "std": 43.594051361083984
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "29": {
+  "prompt": "supernova explosion expanding, brilliant white-blue core surrounded by shockwave shells of glowing gas, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 231651,
+  "qa": {
+   "sharp": 239.44808959960938,
+   "entropy": 7.218207830679471,
+   "mean": 69.02611541748047,
+   "std": 48.1224365234375
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "30": {
+  "prompt": "Eagle Nebula star-forming spire backlit by hot stars, glowing rim of dust, tiny newborn stars, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 239570,
+  "qa": {
+   "sharp": 512.705078125,
+   "entropy": 6.741634580754406,
+   "mean": 49.83429718017578,
+   "std": 31.90110206604004
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "31": {
+  "prompt": "the Cat's Eye Nebula with concentric shells of blue-green and red gas around a bright central star, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 247489,
+  "qa": {
+   "sharp": 145.32785034179688,
+   "entropy": 6.853671370700336,
+   "mean": 59.03293228149414,
+   "std": 38.367820739746094
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "32": {
+  "prompt": "binary star system, a blue giant and an orange star orbiting each other, a stream of gas flowing between them, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 255408,
+  "qa": {
+   "sharp": 83.77664947509766,
+   "entropy": 6.70371485571842,
+   "mean": 49.43724060058594,
+   "std": 43.35432815551758
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "33": {
+  "prompt": "open star cluster of thousands of blue-white stars wrapped in blue reflection nebula, like the Pleiades, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 263327,
+  "qa": {
+   "sharp": 734.3154296875,
+   "entropy": 7.053043369754331,
+   "mean": 57.594608306884766,
+   "std": 43.53767395019531
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "34": {
+  "prompt": "Tarantula Nebula filaments of bright pink and purple gas with embedded hot stars, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 271246,
+  "qa": {
+   "sharp": 252.00062561035156,
+   "entropy": 6.490852134752353,
+   "mean": 52.36473846435547,
+   "std": 30.0806941986084
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "35": {
+  "prompt": "Lagoon Nebula with bright pink gas glow and dark dust lanes, scattered bright stars, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 279165,
+  "qa": {
+   "sharp": 216.71963500976562,
+   "entropy": 6.95101635731454,
+   "mean": 59.001888275146484,
+   "std": 37.5421028137207
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "36": {
+  "prompt": "the Helix Nebula, a giant eye-shaped structure of cyan and orange gas rings with a star at the center, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 287084,
+  "qa": {
+   "sharp": 181.37173461914062,
+   "entropy": 6.795901352170726,
+   "mean": 50.920143127441406,
+   "std": 39.41141891479492
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "37": {
+  "prompt": "a lone rogue planet drifting in dark space, faint rim light from distant stars, subtle atmosphere glow, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 295003,
+  "qa": {
+   "sharp": 64.22127532958984,
+   "entropy": 6.600510440879047,
+   "mean": 49.7932243347168,
+   "std": 34.79232406616211
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "38": {
+  "prompt": "a newborn star igniting inside a dark dust cloud, twin jets of glowing gas shooting from its poles, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 302922,
+  "qa": {
+   "sharp": 45.693580627441406,
+   "entropy": 6.609055019135303,
+   "mean": 48.132476806640625,
+   "std": 34.78807830810547
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "39": {
+  "prompt": "the Milky Way arching over a silhouetted desert ridge, astrophotography, crisp stars, dark foreground rocks, teal, magenta and gold gas glow, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 310841,
+  "qa": {
+   "sharp": 93.749755859375,
+   "entropy": 6.5820847145573325,
+   "mean": 44.24839782714844,
+   "std": 31.940805435180664
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "40": {
+  "prompt": "pulsar, a tiny bright neutron star with twin beams of light sweeping through space, surrounded by a faint gas disc, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 319760,
+  "qa": {
+   "sharp": 47.165435791015625,
+   "entropy": 6.72695194331208,
+   "mean": 50.79184341430664,
+   "std": 42.937931060791016
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "41": {
+  "prompt": "neutron star surface, intensely bright blue-white, starlight bent by extreme gravity around its edge, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 327679,
+  "qa": {
+   "sharp": 95.58287048339844,
+   "entropy": 7.015598839947529,
+   "mean": 63.635398864746094,
+   "std": 46.5615234375
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "42": {
+  "prompt": "alien megastructure, a huge ring of metallic panels orbiting a star, partial eclipse of the star behind it, engineering detail, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 335598,
+  "qa": {
+   "sharp": 754.3915405273438,
+   "entropy": 6.942186290294064,
+   "mean": 60.44940185546875,
+   "std": 48.51008224487305
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "43": {
+  "prompt": "interior of an enormous ring habitat curving upward, lakes forests and cities on the inner surface, sunlight through a central strip, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 343517,
+  "qa": {
+   "sharp": 235.47787475585938,
+   "entropy": 7.435932902671135,
+   "mean": 79.0982666015625,
+   "std": 53.22924041748047
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "44": {
+  "prompt": "giant derelict starship hull drifting, plated metal with rust and docking arms, a gas giant behind it, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 351436,
+  "qa": {
+   "sharp": 399.71514892578125,
+   "entropy": 7.207068217142082,
+   "mean": 75.12890625,
+   "std": 48.26420974731445
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "45": {
+  "prompt": "a perfectly black monolith slab floating in orbit over a planet, edges reflecting starlight, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 359355,
+  "qa": {
+   "sharp": 128.92811584472656,
+   "entropy": 7.214106682065186,
+   "mean": 67.63613891601562,
+   "std": 49.421634674072266
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "46": {
+  "prompt": "interstellar starship with glowing blue engines passing a ringed planet, tiny against the rings, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 367274,
+  "qa": {
+   "sharp": 325.8110656738281,
+   "entropy": 7.639290433748496,
+   "mean": 103.88867950439453,
+   "std": 69.79163360595703
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "47": {
+  "prompt": "colossal space station city with thousands of lit windows, spires and docking rings, orbiting a blue planet, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 375193,
+  "qa": {
+   "sharp": 680.3920288085938,
+   "entropy": 7.215424623731903,
+   "mean": 70.09774017333984,
+   "std": 48.72798156738281
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "48": {
+  "prompt": "Dyson swarm of countless mirror panels around a yellow star, sunlight glinting off the panels, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 383112,
+  "qa": {
+   "sharp": 1215.6025390625,
+   "entropy": 6.988036384612236,
+   "mean": 65.70267486572266,
+   "std": 56.14419937133789
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "49": {
+  "prompt": "vast cathedral-scale hangar inside an alien ship, glowing lines of light, a tiny human figure for scale, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 391031,
+  "qa": {
+   "sharp": 794.3154296875,
+   "entropy": 6.79659123037442,
+   "mean": 58.70399856567383,
+   "std": 48.40287399291992
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "50": {
+  "prompt": "wormhole mouth, a sphere showing a different star field refracted by gravitational lensing, bright ring edge, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 398950,
+  "qa": {
+   "sharp": 169.28216552734375,
+   "entropy": 6.7165236007557905,
+   "mean": 53.07686996459961,
+   "std": 46.031497955322266
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "51": {
+  "prompt": "lava planet with rivers of glowing magma cracks across black crust, deep red sky, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 406869,
+  "qa": {
+   "sharp": 218.07896423339844,
+   "entropy": 6.353800632368829,
+   "mean": 43.08498001098633,
+   "std": 26.96891212463379
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "52": {
+  "prompt": "ocean planet with a giant moon rising, glittering waves under two suns, cinematic backlight, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 414788,
+  "qa": {
+   "sharp": 202.4492950439453,
+   "entropy": 7.259565985102266,
+   "mean": 75.75653076171875,
+   "std": 49.57842254638672
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "53": {
+  "prompt": "ice planet with frozen blue canyons and green aurora lights, a ringed moon in the sky, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 422707,
+  "qa": {
+   "sharp": 153.6009979248047,
+   "entropy": 7.208815908347833,
+   "mean": 74.19798278808594,
+   "std": 44.28378677368164
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "54": {
+  "prompt": "binary suns setting over an alien desert world, one orange and one white sun, two shadows on the dunes, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 430626,
+  "qa": {
+   "sharp": 73.96067810058594,
+   "entropy": 7.313423890375153,
+   "mean": 102.9901123046875,
+   "std": 47.7598991394043
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "55": {
+  "prompt": "alien jungle planet seen from orbit, glowing bioluminescent coastlines on the night side, cloud swirls, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 438545,
+  "qa": {
+   "sharp": 163.04489135742188,
+   "entropy": 6.696753508573257,
+   "mean": 53.49879837036133,
+   "std": 39.40150833129883
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "56": {
+  "prompt": "gas giant storm system with towering lightning in the cloud tops, flashes of blue light between bands, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 446464,
+  "qa": {
+   "sharp": 109.07433319091797,
+   "entropy": 6.6720455259108,
+   "mean": 55.98541259765625,
+   "std": 37.155372619628906
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "57": {
+  "prompt": "crystalline moon with giant quartz spires reflecting starlight, sharp facets, black sky, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 454383,
+  "qa": {
+   "sharp": 589.01953125,
+   "entropy": 6.95395371775605,
+   "mean": 60.171531677246094,
+   "std": 48.85649871826172
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "58": {
+  "prompt": "fleet of tiny ships departing a dying red giant star, the bloated star filling the frame, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 462302,
+  "qa": {
+   "sharp": 162.30068969726562,
+   "entropy": 6.730775719214485,
+   "mean": 55.78156661987305,
+   "std": 43.0870361328125
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "59": {
+  "prompt": "white dwarf with a thin glowing ring of shredded planet debris, tiny and brilliant against black, cold cyan, violet and gold highlights, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 470221,
+  "qa": {
+   "sharp": 411.91937255859375,
+   "entropy": 6.848910000687005,
+   "mean": 55.121971130371094,
+   "std": 47.77497100830078
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "60": {
+  "prompt": "center of the Milky Way, dense crowded bright star field, orange glowing dust clouds, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 479140,
+  "qa": {
+   "sharp": 299.5940246582031,
+   "entropy": 6.040134940499981,
+   "mean": 39.69253921508789,
+   "std": 27.611679077148438
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "61": {
+  "prompt": "stars orbiting a supermassive black hole at the galactic core, bright orange star trails and glowing gas, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 487059,
+  "qa": {
+   "sharp": 180.44288635253906,
+   "entropy": 6.193669332416237,
+   "mean": 41.64865493774414,
+   "std": 35.22282409667969
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "62": {
+  "prompt": "black hole accretion disk seen edge-on, glowing orange-white ring of gas bent over the top by gravitational lensing, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 494978,
+  "qa": {
+   "sharp": 240.54428100585938,
+   "entropy": 7.375446038715643,
+   "mean": 104.62581634521484,
+   "std": 62.37028884887695
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "63": {
+  "prompt": "black hole shadow with a thin bright photon ring and a warped glowing accretion disk, photorealistic, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 502897,
+  "qa": {
+   "sharp": 227.81375122070312,
+   "entropy": 6.9276987797445315,
+   "mean": 83.52994537353516,
+   "std": 40.17644500732422
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "64": {
+  "prompt": "a star being torn apart by tidal forces near a black hole, a stream of gas spiraling inward, bright flare, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 510816,
+  "qa": {
+   "sharp": 142.09161376953125,
+   "entropy": 7.270050596811439,
+   "mean": 71.63817596435547,
+   "std": 46.94932174682617
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "65": {
+  "prompt": "relativistic jet shooting from a black hole, narrow beam of blue-white plasma along the axis, glowing cocoon, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 518735,
+  "qa": {
+   "sharp": 208.0415802001953,
+   "entropy": 6.901344654598594,
+   "mean": 66.28756713867188,
+   "std": 55.43612289428711
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "66": {
+  "prompt": "gas filaments spiraling in a hot accretion disk, bright white-hot inner ring, orange outer swirls, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 526654,
+  "qa": {
+   "sharp": 205.25608825683594,
+   "entropy": 7.755569584218988,
+   "mean": 122.53057098388672,
+   "std": 68.06562042236328
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "67": {
+  "prompt": "quasar blazing, intensely bright core with twin jets, distant galaxies scattered across the sky, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 534573,
+  "qa": {
+   "sharp": 136.02862548828125,
+   "entropy": 7.165280143463995,
+   "mean": 87.18456268310547,
+   "std": 56.19111633300781
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "68": {
+  "prompt": "Andromeda-like spiral galaxy from far away, glowing core, dark dust lanes, small satellite galaxies, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 542492,
+  "qa": {
+   "sharp": 131.06463623046875,
+   "entropy": 6.682925277423875,
+   "mean": 45.94898986816406,
+   "std": 33.76677322387695
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "69": {
+  "prompt": "two spiral galaxies colliding, long tidal tails of stars, glowing bridges of gas, pink star-forming knots, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 550411,
+  "qa": {
+   "sharp": 181.39151000976562,
+   "entropy": 6.610145730958718,
+   "mean": 52.43946075439453,
+   "std": 40.32598114013672
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "70": {
+  "prompt": "galaxy cluster with golden elliptical galaxies and blue gravitationally lensed arcs, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 558330,
+  "qa": {
+   "sharp": 678.2257690429688,
+   "entropy": 6.079713521148042,
+   "mean": 36.6590461730957,
+   "std": 28.970809936523438
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "71": {
+  "prompt": "the cosmic web, filaments of galaxies strung between dark voids, bright glowing nodes, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 566249,
+  "qa": {
+   "sharp": 692.3754272460938,
+   "entropy": 6.314377606903197,
+   "mean": 41.74248123168945,
+   "std": 38.090938568115234
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "72": {
+  "prompt": "Hubble Deep Field, thousands of tiny galaxies of every shape and color on black, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 574168,
+  "qa": {
+   "sharp": 1067.2840576171875,
+   "entropy": 4.493360369776932,
+   "mean": 21.46585464477539,
+   "std": 30.733219146728516
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "73": {
+  "prompt": "an Einstein ring, a distant galaxy stretched into a bright ring by gravitational lensing, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 582087,
+  "qa": {
+   "sharp": 100.4941177368164,
+   "entropy": 4.933166354172235,
+   "mean": 33.23688507080078,
+   "std": 39.85416030883789
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "74": {
+  "prompt": "approaching the event horizon, accretion disk filling half the sky, intense orange glow, the dark center growing, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 590006,
+  "qa": {
+   "sharp": 105.34541320800781,
+   "entropy": 6.204501868938722,
+   "mean": 40.34819030761719,
+   "std": 34.04575729370117
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "75": {
+  "prompt": "lone astronaut silhouette with visor reflecting an orange glow, standing on a tiny rock near a black hole, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 597925,
+  "qa": {
+   "sharp": 198.29104614257812,
+   "entropy": 6.842312559420164,
+   "mean": 53.979190826416016,
+   "std": 47.45257568359375
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "76": {
+  "prompt": "the photon ring, a razor-thin bright ring of light on pure black, faint warped disc, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 605844,
+  "qa": {
+   "sharp": 3022.2998046875,
+   "entropy": 6.8362214804784704,
+   "mean": 104.51708221435547,
+   "std": 100.11363983154297
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "77": {
+  "prompt": "a spacecraft stretched into a thin line near a black hole, red-shifted light streaking along it, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 613763,
+  "qa": {
+   "sharp": 372.1285400390625,
+   "entropy": 7.085895861071556,
+   "mean": 59.85185623168945,
+   "std": 53.78229904174805
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "78": {
+  "prompt": "rebirth, a new star system forming with a bright young golden star and an orbiting dust ring, warm light, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 621682,
+  "qa": {
+   "sharp": 88.8301773071289,
+   "entropy": 7.02490167271824,
+   "mean": 61.3626708984375,
+   "std": 51.59194564819336
+  },
+  "qa_ok": true,
+  "attempts": 1
+ },
+ "79": {
+  "prompt": "final shot: Earth as a small blue marble hanging in the dark with the Milky Way arching behind, calm and still, black, molten orange and white-hot light, photorealistic cinematic still, IMAX 70mm space documentary, razor sharp, fine detail, natural light, deep black space",
+  "seed": 629601,
+  "qa": {
+   "sharp": 54.74184799194336,
+   "entropy": 5.288199874031117,
+   "mean": 25.77800750732422,
+   "std": 31.26382064819336
+  },
+  "qa_ok": true,
+  "attempts": 1
+ }
+}
