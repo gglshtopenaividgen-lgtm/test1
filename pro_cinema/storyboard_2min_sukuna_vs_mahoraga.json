@@ -1,0 +1,200 @@
+{
+  "title": "Jujutsu Kaisen: Sukuna vs. Mahoraga - Shibuya Calamity (2-Minute Cinematic)",
+  "total_duration_seconds": 120.0,
+  "fps": 24,
+  "total_shots": 18,
+  "aspect_ratio": "2.39:1 Anamorphic",
+  "resolution": {"width": 1280, "height": 720},
+  "aesthetic_bible": {
+    "visual_style": "High-budget dark anime film, MAPPA Shibuya Incident aesthetic, cinematic 35mm anamorphic lens, deep motion blur, heavy volumetric atmospheric rain, neon Tokyo reflections, hyper-detailed particles",
+    "color_palette": {
+      "act_1": "Midnight indigo, rain-slicked wet asphalt reflections, glowing charcoal black cursed tattoo marks, stark neon teal accents",
+      "act_2": "Cursed black and crimson sparks, radiant divine gold from the Dharmachakra wheel, pale ivory shikigami flesh",
+      "act_3": "Blood-crimson sky, dark obsidian Buddhist shrine wood, severed demonic horns, storm of microscopic translucent cutting blades",
+      "act_4": "Blinding incandescent solar-gold plasma, blistering fiery amber, nuclear ash fallout, blinding high-contrast white flame"
+    },
+    "universal_negative_prompt": "blurry, low resolution, bad anatomy, deformed hands, extra limbs, cartoonish, low frame rate, flat lighting, amateur animation, flickering, painterly smears, oversaturated amateur colors"
+  },
+  "shots": [
+    {
+      "index": 0,
+      "act": 1,
+      "title": "Act 1: The Shibuya Standoff",
+      "duration_seconds": 6.7,
+      "camera_motion": "Slow low-angle dolly push-in toward Sukuna perched on ruined train wreckage",
+      "prompt": "Cinematic anime film still, Ryomen Sukuna standing confidently atop a shattered Shibuya train carriage in pouring torrential rain, glowing black curse markings across his muscular arms and face, arrogant smirk, spiky pink-tinted hair plastered with raindrops, white kimono robe fluttering in gale winds, dark stormy Shibuya intersection at midnight, neon signs flickering in the background, puddles reflecting city lights, 35mm anamorphic photography, high contrast lighting.",
+      "continuity_vector": "Stationary confident stance, camera moving forward at 0.5m/s, wind blowing kimono fabric rightward.",
+      "audio_cue": "Distant Shibuya sirens, heavy raindrops pattering on metal, low sub-bass pulse."
+    },
+    {
+      "index": 1,
+      "act": 1,
+      "title": "Act 1: Mahoraga's Manifestation",
+      "duration_seconds": 6.7,
+      "camera_motion": "Tilt-up crane shot surveying the colossal shikigami",
+      "prompt": "Towering Divine General Mahoraga standing monolithic in the Shibuya crater, pale muscular alabaster torso dripping with rain, winged serpentine eyes, immense golden eight-spoked Dharmachakra wheel hovering majestically above its head, heavy broadsword blade forged onto right forearm, steam rising from its shoulders into the cold midnight air, rubble drifting around its feet, cinematic wide-angle, hyper-detailed dark anime.",
+      "continuity_vector": "Mahoraga facing camera, head tilted slightly downward, golden wheel motionless at 0 degrees.",
+      "audio_cue": "Ominous heavy brass horn, deep shikigami breathing."
+    },
+    {
+      "index": 2,
+      "act": 1,
+      "title": "Act 1: The Invisible Dismantle",
+      "duration_seconds": 6.7,
+      "camera_motion": "High-velocity tracking shot behind Sukuna rushing forward",
+      "prompt": "Ryomen Sukuna lunging forward with explosive supersonic speed, fingers flicking horizontally, invisible Dismantle slashes carving gouges into the asphalt street, geysers of pulverized concrete and water erupting into the air, black cursed lightning trailing behind his heels, dynamic extreme perspective, motion blur on foreground rubble, high frame rate anime action.",
+      "continuity_vector": "Forward velocity 25m/s, slashes traveling toward the center-left horizon.",
+      "audio_cue": "Supersonic whip crack, concrete tearing like paper."
+    },
+    {
+      "index": 3,
+      "act": 1,
+      "title": "Act 1: The First Impact",
+      "duration_seconds": 6.7,
+      "camera_motion": "Side tracking shot as slashes carve into Mahoraga",
+      "prompt": "Four colossal horizontal slashes violently impacting Mahoraga's chest, shower of dark crimson cursed blood, immense kinetic shockwave sending Mahoraga sliding backward 40 meters across the wet pavement, crushing concrete barriers and scattering parked cars, sparks flying from its heels dragging through the street, dramatic anime side profile.",
+      "continuity_vector": "Mahoraga sliding backward right-to-left, chest wound open, balance stabilizing.",
+      "audio_cue": "Heavy flesh impact, metal scraping on pavement, water splashing."
+    },
+    {
+      "index": 4,
+      "act": 2,
+      "title": "Act 2: The First Turn of the Wheel",
+      "duration_seconds": 6.7,
+      "camera_motion": "Macro zoom on the golden Dharmachakra wheel hovering above Mahoraga",
+      "prompt": "Close-up cinematic focus on the golden eight-spoked wheel above Mahoraga's head, the wheel mechanically rotating 45 degrees with an audible heavy clack, divine golden runes igniting along its golden rim, Mahoraga's chest lacerations instantly closing and knitting together with white steam, eyes glowing with supernatural insight, dark rainy night backdrop.",
+      "continuity_vector": "Golden wheel rotated to 45 degrees, steam venting from chest, posture straightening.",
+      "audio_cue": "Loud resonant metallic ratchet click: CLACK, divine celestial chime."
+    },
+    {
+      "index": 5,
+      "act": 2,
+      "title": "Act 2: Sword of Extermination Strike",
+      "duration_seconds": 6.7,
+      "camera_motion": "Whip pan tracking Mahoraga's counterattack",
+      "prompt": "Divine General Mahoraga leaping forward with earth-shattering acceleration, swinging the glowing Sword of Extermination attached to its forearm in a massive downward arc, radiant positive energy blade shearing a 5-story glass office building clean in two, falling glass shards catching city lights, Sukuna backflipping through the air centimeters ahead of the blade.",
+      "continuity_vector": "Blade moving downward-right, Sukuna in mid-air arched upward, glass debris raining down.",
+      "audio_cue": "Hum of positive energy blade, massive structural collapse roar."
+    },
+    {
+      "index": 6,
+      "act": 2,
+      "title": "Act 2: Mid-Air Combat Clash",
+      "duration_seconds": 6.7,
+      "camera_motion": "Orbiting 360-degree camera around mid-air clash",
+      "prompt": "Mid-air high-speed collision between Sukuna and Mahoraga, Sukuna blocking the extermination blade with arms reinforced by dense pitch-black cursed energy, crimson and obsidian lightning arcs erupting from the point of contact, rain droplets suspended weightless in the gravitational shockwave, intense facial expressions, cinematic freeze-frame dynamic anime choreography.",
+      "continuity_vector": "Orbital rotation 60 degrees clockwise, cursed energy particles dispersing outward.",
+      "audio_cue": "Explosive thunderous cursed spark, electrical crackle."
+    },
+    {
+      "index": 7,
+      "act": 2,
+      "title": "Act 2: The Crater Slam",
+      "duration_seconds": 6.7,
+      "camera_motion": "Downward crane shot following the descent",
+      "prompt": "Mahoraga's massive left fist smashing Sukuna down through the air into the center of the Shibuya crossroads, creating a massive 30-meter crater in the road, concentric shockwaves blowing rain and shattered asphalt into a spherical halo, dust billowing violently under streetlamp glow, dramatic bird's eye perspective.",
+      "continuity_vector": "Downward impact, dust mushrooming outward, rain pushed back.",
+      "audio_cue": "Earth-shaking bass drop, shockwave boom."
+    },
+    {
+      "index": 8,
+      "act": 2,
+      "title": "Act 2: Second Turn - Complete Adaptation",
+      "duration_seconds": 6.7,
+      "camera_motion": "Slow tilt-down from the wheel to Mahoraga's eyes",
+      "prompt": "The golden Dharmachakra wheel turning for the second time, rotating another 45 degrees with an authoritative mechanical snap, brilliant golden aura flaring around Mahoraga's towering silhouette, Mahoraga looking down into the smoke-filled crater, its posture dominant and unfazed, rain beating against its invulnerable skin, menacing anime cinematography.",
+      "continuity_vector": "Wheel positioned at 90 degrees, aura intensifying, Mahoraga stepping forward.",
+      "audio_cue": "Heavy mechanical ratchet: CLACK, resonant metallic hum."
+    },
+    {
+      "index": 9,
+      "act": 3,
+      "title": "Act 3: Domain Expansion Hand Sign",
+      "duration_seconds": 6.7,
+      "camera_motion": "Slow creeping dolly in on Sukuna's face rising from smoke",
+      "prompt": "Ryomen Sukuna rising calmly from the crater rubble, dark blood dripping from his chin, ecstatic malevolent grin spreading across his face, hands coming together at chest height into the Enma-Ten hand sign, fingertips touching, black cursed energy boiling into the atmosphere turning the rain into red mist, intense theatrical anime lighting.",
+      "continuity_vector": "Hands locked in Enma-Ten mudra, smirk widening, crimson mist rising.",
+      "audio_cue": "Eerie silence cutting the rain, faint demonic whisper: 'Ryoiki Tenkai'."
+    },
+    {
+      "index": 10,
+      "act": 3,
+      "title": "Act 3: Malevolent Shrine Manifests",
+      "duration_seconds": 6.7,
+      "camera_motion": "Epic wide pullback revealing the immense domain architecture",
+      "prompt": "The colossal open-barrier Domain Expansion Malevolent Shrine (Fukuma Mizushi) materializing behind Sukuna in Shibuya, an ominous multi-horned dark wooden Buddhist shrine crowned with decaying bull skulls, dark water pooling at its base, four glowing demonic masks adorning the eaves, dark crimson sky lit by unnatural cursed lightning, breathtaking architectural scale, dark fantasy anime masterpiece.",
+      "continuity_vector": "Shrine fully materialized, dark water rippling, Sukuna centered in foreground.",
+      "audio_cue": "Massive deep temple bell toll (bonsho), cursed atmospheric drone."
+    },
+    {
+      "index": 11,
+      "act": 3,
+      "title": "Act 3: The Hurricane of Slashes",
+      "duration_seconds": 6.7,
+      "camera_motion": "Frenetic sweeping panoramic dolly across Shibuya",
+      "prompt": "Malevolent Shrine's guaranteed-hit effect unleashing millions of relentless Cleave and Dismantle slashes across a 140-meter radius, skyscrapers being sliced into hundreds of paper-thin geometric cross-sections before dissolving into fine gray dust, streetlamps and asphalt disintegrating into microscopic particles, absolute vortex of destruction, terrifying kinetic anime scale.",
+      "continuity_vector": "Continuous omnidirectional slashing vectors, dust storm expanding outward.",
+      "audio_cue": "Continuous deafening roar of millions of blades slicing solid rock."
+    },
+    {
+      "index": 12,
+      "act": 3,
+      "title": "Act 3: The Wheel Spins Like a Turbine",
+      "duration_seconds": 6.7,
+      "camera_motion": "Medium shot centered on Mahoraga enduring the storm",
+      "prompt": "Mahoraga standing in the center of the domain's relentless slashing hurricane, its body being sliced and shredded hundreds of times per second while regenerating just as rapidly, the golden wheel above its head spinning continuously like a golden turbine in a blur of light, golden embers flying from the spinning wheel, impossible tenacity, dynamic high-speed anime rendering.",
+      "continuity_vector": "Wheel spinning at high RPM, golden light trail, regeneration keeping pace.",
+      "audio_cue": "Spinning whir of golden turbine, continuous meat and bone regeneration sizzle."
+    },
+    {
+      "index": 13,
+      "act": 3,
+      "title": "Act 3: The Invulnerable March",
+      "duration_seconds": 6.7,
+      "camera_motion": "Low-angle tracking shot moving backward ahead of Mahoraga",
+      "prompt": "Mahoraga stepping firmly forward through the storm of slashes, completely adapted to cutting attacks, invisible blades bouncing harmlessly off its pale armored chest leaving only faint golden sparks, Mahoraga raising its extermination blade toward Sukuna, eyes locked in grim divine judgment, Shibuya reduced to a desert of fine dust behind it.",
+      "continuity_vector": "Forward footsteps at 1.5m/s, slashes deflecting with golden sparks.",
+      "audio_cue": "Heavy ground-shaking footsteps, blades pinging off skin like dull metal."
+    },
+    {
+      "index": 14,
+      "act": 4,
+      "title": "Act 4: Furnace Open (Fuga)",
+      "duration_seconds": 6.7,
+      "camera_motion": "Dramatic tight shot on Sukuna's face as slashes cease",
+      "prompt": "The slashing storm abruptly ceases, leaving total dead silence across the dust-covered Shibuya wasteland, Sukuna lowering his hands with an amused expression, whispering 'Open', small single spark of bright orange fire dancing above his outstretched right palm, high contrast chiaroscuro lighting, embers drifting past his eyes, hyper-detailed anime cinematic.",
+      "continuity_vector": "Total stillness, single bright fire point hovering in palm.",
+      "audio_cue": "Absolute dead silence, whisper: 'Fuga', faint match-strike click."
+    },
+    {
+      "index": 15,
+      "act": 4,
+      "title": "Act 4: The Fire Arrow Materializes",
+      "duration_seconds": 6.7,
+      "camera_motion": "Dynamic rotating crane shot as the flame expands",
+      "prompt": "Sukuna drawing an enormous spectral bow of blinding solar fire, a colossal arrow of incandescent white-hot flame materializing between his fingers, intense heat waves warping the background Shibuya air, asphalt melting beneath his sandals, blazing firelight casting deep dynamic shadows across his tattooed body, blinding golden-orange radiance, breathtaking animation.",
+      "continuity_vector": "Bow drawn back to full tension, plasma arrow vibrating with immense heat.",
+      "audio_cue": "Roaring furnace flame crescendo, high-pitched plasma resonance."
+    },
+    {
+      "index": 16,
+      "act": 4,
+      "title": "Act 4: The Release",
+      "duration_seconds": 6.7,
+      "camera_motion": "Extreme slow-motion bullet-time tracking the arrow's flight",
+      "prompt": "Sukuna releasing the bowstring in ultra slow motion, the Divine Flame arrow streaking through the night air like a hypersonic comet, parting the atmosphere and creating a vacuum tunnel of fire, blinding golden shockwaves expanding in rings along its path, Mahoraga's eyes widening in realization, camera tracking alongside the screaming fiery projectile.",
+      "continuity_vector": "Arrow traveling forward at hypersonic velocity, illuminating the entire avenue.",
+      "audio_cue": "Thunderous sonic boom, screaming rocket-like propulsion roar."
+    },
+    {
+      "index": 17,
+      "act": 4,
+      "title": "Act 4: The Shibuya Incineration Climax",
+      "duration_seconds": 6.7,
+      "camera_motion": "Epic high-altitude crane pullback revealing the colossal explosion",
+      "prompt": "The Divine Flame arrow piercing directly through Mahoraga's chest and detonating in an apocalyptic nuclear fireball explosion, colossal dome of blinding white and golden-red flame consuming the entire Shibuya crater, golden Dharmachakra wheel disintegrating into ash, silhouette of the incinerated city lit up against midnight skies, ultimate anime finale climax, jaw-dropping cinematic visual spectacle.",
+      "continuity_vector": "Expanding fireball dome 200m radius, ash and ember fallout, fading to golden smoke.",
+      "audio_cue": "Massive apocalyptic blast, low rumble decaying into distant wind."
+    }
+  ]
+}
